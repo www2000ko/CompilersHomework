@@ -54,7 +54,7 @@ public class Main{
                     ch = chars[++i];
                 }
                 i--;
-                System.out.println("Int("+arr+")");
+                System.out.println("Int("+Integer.valueOf(arr)+")");
             }
             else switch(ch){
                     case '+':System.out.println("Plus");break;
